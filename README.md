@@ -4,6 +4,8 @@ IdentifyPanel
 A Widget to be used with the Configurable Map Viewer
 
 
+I still need to an another attribute to the options to allow the popup to be turned off, or shown in tandem.
+
 
 
 A widget created as an addition to [David Spriggs Configurable Map Viewer](https://github.com/DavidSpriggs/ConfigurableViewerJSAPI), aka CMV. Designed for use in his project using the file structure indicated there. 
