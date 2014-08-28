@@ -10,10 +10,6 @@ A widget created as an addition to [David Spriggs Configurable Map Viewer](https
 
 Please see this projects //TODO:ADD LINK// for details on how to configure CMV to load this widget.
 
-## NavToolbar
-
-
-
 ## Adding to CMV
 ```javascript
 widgets: {
