@@ -8,11 +8,11 @@ A Widget to be used with the Configurable Map Viewer
 
 A widget created as an addition to [David Spriggs Configurable Map Viewer](https://github.com/DavidSpriggs/ConfigurableViewerJSAPI), aka CMV. Designed for use in his project using the file structure indicated there. 
 
-Please see this projects [how-to Wiki] (https://github.com/friendde/ArcGIS_JS_NavigationTools/wiki/How-to-add-widget-to-CMV) for details on how to configure CMV to load this widget.
+Please see this projects //TODO:ADD LINK// for details on how to configure CMV to load this widget.
 
 ## NavToolbar
 
-![navtoolsscreenshot](https://cloud.githubusercontent.com/assets/7818309/4076966/d57254fe-2ebe-11e4-9590-2988bf24bd38.JPG)
+
 
 ## Adding to CMV
 ```javascript
