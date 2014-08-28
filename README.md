@@ -4,7 +4,7 @@ IdentifyPanel
 A Widget to be used with the Configurable Map Viewer
 
 
-I still need to an another attribute to the options to allow the popup to be turned off, or shown in tandem.
+**I still need to an another attribute to the options to allow the popup to be turned off, or shown in tandem.**
 
 
 
