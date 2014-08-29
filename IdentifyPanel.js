@@ -28,7 +28,7 @@ define([
                 this.identifyPanelNode.innerHTML = '';                
                 if(feature){
                     
-                    this.featureNode.innerHTML = this.map.infoWindow.features.length;
+                    this.featureNode.innerHTML = this.map.infoWindow.features.length + ' features currently selected';
                     var content = feature.getContent();
                     console.log(content);
                     this.identifyPanelNode.set('content',content);
