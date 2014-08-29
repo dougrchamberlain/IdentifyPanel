@@ -15,11 +15,12 @@ define([
     return declare([_WidgetBase, _TemplatedMixin,_WidgetsInTemplateMixin], {
         widgetsInTemplate: true,
         templateString: template,
+        allowPopup: false,
         postCreate: function() {
         this.inherited(arguments);
         this.initializeSidebar();
         domStyle.set(this.pagerNode,'display','none');
-        this.featureNode.innerHTML = 'Click to select a feature';
+        this.featureNode.innerHTML = 'Click to select a feature';        
         this.startup();
 
         },
@@ -52,6 +53,15 @@ define([
             initializeSidebar: function(){
                 //when the selection changes update the side panel to display the popup info for the 
                 //currently selected feature. 
+        
+            if (this.allowPopup === true) {
+                    this.map.infoWindow.popupWindow = true;
+                }
+                else{
+                    this.map.infoWindow.popupWindow = false;
+                }
+            
+
                 this.map.infoWindow.on('selection-change', lang.hitch(this,function(){
                     this.displayPopupContent(this.map.infoWindow.getSelectedFeature());
                 }));
